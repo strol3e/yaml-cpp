@@ -2,8 +2,8 @@ project "yaml-cpp"
     kind "StaticLib"
     language "C++"
     cppdialect "C++20"
-    objdir (vendorLibDir)
-    targetdir (vendorObjDir)
+    objdir (OutDirs["vendorLibDir"])
+    targetdir (OutDirs["vendorObjDir"])
 
     
     files 
